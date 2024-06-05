@@ -1,0 +1,86 @@
+object Form2: TForm2
+  Left = 651
+  Top = 177
+  Width = 395
+  Height = 293
+  Caption = 'Form2'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 26
+    Top = 71
+    Width = 80
+    Height = 19
+    Caption = 'username'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 26
+    Top = 114
+    Width = 78
+    Height = 19
+    Caption = 'Password'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 94
+    Top = 16
+    Width = 57
+    Height = 25
+    Caption = 'Login'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 118
+    Top = 76
+    Width = 142
+    Height = 21
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 119
+    Top = 116
+    Width = 140
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit2'
+  end
+  object Button1: TButton
+    Left = 69
+    Top = 167
+    Width = 75
+    Height = 21
+    Caption = 'Login'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+end
